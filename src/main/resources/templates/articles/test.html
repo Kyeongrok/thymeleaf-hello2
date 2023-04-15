@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="~{layout/header :: head}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:insert="~{layout/header :: navBar}"></div>
+    <h1> Thymeleaf 변수 출력 테스트 rok이 출력되면 성공</h1>
+    <span th:text="${username}"></span> 환영합니다.
+    <div th:insert="~{layout/footer :: footer}"></div>
+</body>
+</html>
